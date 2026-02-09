@@ -21,7 +21,58 @@ function updateTime() {
   );
 }
 
-function renderCalendar() {}
+function renderCalendar() {
+  const monthYear = document.getElementById("month-year");
+  const grid = document.getElementById("calendar-grid");
+  const mm = String(displayMonth + 1).padStart(2, "0");
+  monthYear.textContent = displayYear + " / " + mm;
+
+  grid.innerHTML = "";
+
+  weekdays.forEach(function (d) {
+    const div = document.createElement("div");
+    div.className = "weekday";
+    div.textContent = d;
+    grid.appendChild(div);
+  });
+
+  const firstDay = new Date(displayYear, displayMonth, 1).getDay();
+  const daysInMonth = new Date(displayYear, displayMonth + 1, 0).getDate();
+  const prevDays = new Date(displayYear, displayMonth, 0).getDate();
+
+  const today = new Date();
+  const todayYear = today.getFullYear();
+  const todayMonth = today.getMonth();
+  const todayDate = today.getDate();
+
+  for (let i = firstDay - 1; i >= 0; i--) {
+    const div = document.createElement("div");
+    div.className = "day other-month";
+    div.textContent = prevDays - i;
+    grid.appendChild(div);
+  }
+
+  for (let d = 1; d <= daysInMonth; d++) {
+    const div = document.createElement("div");
+    div.className = "day";
+    if (displayYear === todayYear && displayMonth === todayMonth && d === todayDate) {
+      div.classList.add("today");
+    }
+    div.textContent = d;
+    grid.appendChild(div);
+  }
+
+  const totalCells = firstDay + daysInMonth;
+  const remainder = totalCells % 7;
+  if (remainder > 0) {
+    for (let i = 1; i <= 7 - remainder; i++) {
+      const div = document.createElement("div");
+      div.className = "day other-month";
+      div.textContent = i;
+      grid.appendChild(div);
+    }
+  }
+}
 
 document.getElementById("prev-btn").addEventListener("click", function () {
   displayMonth--;
