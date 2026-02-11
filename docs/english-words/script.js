@@ -14,13 +14,6 @@ function renderWord() {
     (currentIndex + 1) + " / " + words.length;
 }
 
-fetch("data.json")
-  .then(function (res) { return res.json(); })
-  .then(function (data) {
-    words = data;
-    renderWord();
-  });
-
 document.getElementById("prev-btn").addEventListener("click", function () {
   currentIndex--;
   if (currentIndex < 0) {
@@ -36,3 +29,10 @@ document.getElementById("next-btn").addEventListener("click", function () {
   }
   renderWord();
 });
+
+fetch("data.json")
+  .then(function (res) { return res.json(); })
+  .then(function (data) {
+    words = data;
+    renderWord();
+  });
