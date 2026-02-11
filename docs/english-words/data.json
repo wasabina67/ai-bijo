@@ -1,1 +1,72 @@
-[]
+[
+    {
+        "word": "feature",
+        "meaning": "機能、特徴",
+        "example": "This app has many useful features."
+    },
+    {
+        "word": "research",
+        "meaning": "研究、調査",
+        "example": "She is doing research on climate change."
+    },
+    {
+        "word": "estimate",
+        "meaning": "見積もる、推定する",
+        "example": "They estimated the cost at $10,000."
+    },
+    {
+        "word": "implementation",
+        "meaning": "実装、実行",
+        "example": "The implementation of the new system will take three months."
+    },
+    {
+        "word": "stabilization",
+        "meaning": "安定化",
+        "example": "We are working on the stabilization of the application."
+    },
+    {
+        "word": "kanban board",
+        "meaning": "カンバンボード",
+        "example": "Our team uses a Kanban board to track progress."
+    },
+    {
+        "word": "collision",
+        "meaning": "衝突",
+        "example": "There was a collision between two cars on the highway."
+    },
+    {
+        "word": "steady",
+        "meaning": "安定した、着実な",
+        "example": "The company has shown steady growth over the past year."
+    },
+    {
+        "word": "sober",
+        "meaning": "しらふの、冷静な",
+        "example": "He remained sober and made a rational decision."
+    },
+    {
+        "word": "subjective",
+        "meaning": "主観的な",
+        "example": "Beauty is subjective and varies from person to person."
+    },
+    {
+        "word": "objective",
+        "meaning": "客観的な、目的",
+        "example": "We need to make an objective assessment of the situation."
+    },
+    {
+        "word": "lip sync",
+        "meaning": "リップシンク、口パク",
+        "example": "The actor did a perfect lip sync to the song."
+    },
+    {
+        "word": "ascending order",
+        "meaning": "昇順",
+        "example": "Sort the numbers in ascending order from smallest to largest."
+    },
+    {
+        "word": "descending order",
+        "meaning": "降順",
+        "example": "The list is arranged in descending order from highest to lowest."
+    }
+]
