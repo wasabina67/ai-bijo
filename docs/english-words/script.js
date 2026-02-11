@@ -30,6 +30,16 @@ function goNext() {
   renderWord();
 }
 
+// Fisher–Yates shuffle
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 document.getElementById("prev-btn").addEventListener("click", goPrev);
 
 document.getElementById("next-btn").addEventListener("click", goNext);
@@ -46,6 +56,6 @@ document.addEventListener("keydown", function (e) {
 fetch("data.json")
   .then(function (res) { return res.json(); })
   .then(function (data) {
-    words = data;
+    words = shuffleArray(data);
     renderWord();
   });
