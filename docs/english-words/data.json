@@ -88,5 +88,65 @@
         "word": "proficiency",
         "meaning": "熟達、習熟度",
         "example": "English proficiency is a requirement for this position."
+    },
+    {
+        "word": "January, Jan",
+        "meaning": "1月",
+        "example": "The new year starts in January."
+    },
+    {
+        "word": "February, Feb",
+        "meaning": "2月",
+        "example": "Valentine's Day is in February."
+    },
+    {
+        "word": "March, Mar",
+        "meaning": "3月",
+        "example": "Spring begins in March."
+    },
+    {
+        "word": "April, Apr",
+        "meaning": "4月",
+        "example": "The cherry blossoms bloom in April."
+    },
+    {
+        "word": "May, May",
+        "meaning": "5月",
+        "example": "Golden Week is in May."
+    },
+    {
+        "word": "June, Jun",
+        "meaning": "6月",
+        "example": "The rainy season starts in June."
+    },
+    {
+        "word": "July, Jul",
+        "meaning": "7月",
+        "example": "Summer vacation begins in July."
+    },
+    {
+        "word": "August, Aug",
+        "meaning": "8月",
+        "example": "August is the hottest month of the year."
+    },
+    {
+        "word": "September, Sep",
+        "meaning": "9月",
+        "example": "School starts in September."
+    },
+    {
+        "word": "October, Oct",
+        "meaning": "10月",
+        "example": "Halloween is celebrated in October."
+    },
+    {
+        "word": "November, Nov",
+        "meaning": "11月",
+        "example": "Thanksgiving is in November."
+    },
+    {
+        "word": "December, Dec",
+        "meaning": "12月",
+        "example": "Christmas is in December."
     }
 ]
