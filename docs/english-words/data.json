@@ -198,5 +198,60 @@
         "word": "think",
         "meaning": "思う、考える",
         "example": "What do you think?"
+    },
+    {
+        "word": "on a dime",
+        "meaning": "即座に、素早く",
+        "example": "Change on a dime."
+    },
+    {
+        "word": "continue",
+        "meaning": "続ける",
+        "example": "So during the last Sprint, we continue our research about major version 2 features."
+    },
+    {
+        "word": "perform",
+        "meaning": "実行する、行う",
+        "example": "We decided to perform the research to summaries all these feature requests."
+    },
+    {
+        "word": "regarding",
+        "meaning": "～に関して",
+        "example": "Regarding vulnerabilities, no new vulnerabilities are found."
+    },
+    {
+        "word": "do my best",
+        "meaning": "最善を尽くす",
+        "example": "I'm not very good at English, but I'll do my best. Nice to meet you!"
+    },
+    {
+        "word": "advance",
+        "meaning": "進める、前進する、進歩",
+        "example": "We need to advance the project timeline."
+    },
+    {
+        "word": "deliver",
+        "meaning": "配達する、提供する",
+        "example": "We will deliver the product next week."
+    },
+    {
+        "word": "release",
+        "meaning": "リリースする、発表する",
+        "example": "The new version will be released next month."
+    },
+    {
+        "word": "middle",
+        "meaning": "中央、真ん中",
+        "example": "Put the table in the middle of the room."
+    },
+    {
+        "word": "AI engine",
+        "meaning": "AIエンジン",
+        "example": "Our AI engine can process thousands of requests per second."
+    },
+    {
+        "word": "approximately",
+        "meaning": "およそ、約",
+        "example": "The project will take approximately three months."
     }
 ]
