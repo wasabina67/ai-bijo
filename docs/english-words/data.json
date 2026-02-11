@@ -148,5 +148,50 @@
         "word": "December, Dec",
         "meaning": "12月",
         "example": "Christmas is in December."
+    },
+    {
+        "word": "understand",
+        "meaning": "理解する",
+        "example": "I understand."
+    },
+    {
+        "word": "confirm",
+        "meaning": "確認する",
+        "example": "Let me confirm."
+    },
+    {
+        "word": "behavior",
+        "meaning": "振る舞い、動作",
+        "example": "Is the behavior a bug?"
+    },
+    {
+        "word": "make sense",
+        "meaning": "意味をなす、理解できる",
+        "example": "That makes sense."
+    },
+    {
+        "word": "absolutely",
+        "meaning": "絶対に、完全に",
+        "example": "You're absolutely right."
+    },
+    {
+        "word": "response",
+        "meaning": "返答、応答",
+        "example": "Thank you for your response!"
+    },
+    {
+        "word": "clear",
+        "meaning": "明確な、はっきりした",
+        "example": "Sorry, I was not clear last time."
+    },
+    {
+        "word": "at the moment",
+        "meaning": "現時点では、今のところ",
+        "example": "There's nothing else at the moment."
+    },
+    {
+        "word": "think",
+        "meaning": "思う、考える",
+        "example": "What do you think?"
     }
 ]
