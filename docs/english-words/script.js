@@ -34,6 +34,15 @@ document.getElementById("prev-btn").addEventListener("click", goPrev);
 
 document.getElementById("next-btn").addEventListener("click", goNext);
 
+document.addEventListener("keydown", function (e) {
+  const key = e.key.toLowerCase();
+  if (key === "p") {
+    goPrev();
+  } else if (key === "n") {
+    goNext();
+  }
+});
+
 fetch("data.json")
   .then(function (res) { return res.json(); })
   .then(function (data) {
