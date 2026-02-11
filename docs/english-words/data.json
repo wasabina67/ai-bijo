@@ -78,5 +78,15 @@
         "word": "sprint",
         "meaning": "スプリント",
         "example": "Let's review what went well and what didn't in the last sprint."
+    },
+    {
+        "word": "essential",
+        "meaning": "不可欠な、必須の",
+        "example": "Meeting this requirement is essential."
+    },
+    {
+        "word": "proficiency",
+        "meaning": "熟達、習熟度",
+        "example": "English proficiency is a requirement for this position."
     }
 ]
