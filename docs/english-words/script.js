@@ -14,21 +14,25 @@ function renderWord() {
     (currentIndex + 1) + " / " + words.length;
 }
 
-document.getElementById("prev-btn").addEventListener("click", function () {
+function goPrev() {
   currentIndex--;
   if (currentIndex < 0) {
     currentIndex = words.length - 1;
   }
   renderWord();
-});
+}
 
-document.getElementById("next-btn").addEventListener("click", function () {
+function goNext() {
   currentIndex++;
   if (currentIndex >= words.length) {
     currentIndex = 0;
   }
   renderWord();
-});
+}
+
+document.getElementById("prev-btn").addEventListener("click", goPrev);
+
+document.getElementById("next-btn").addEventListener("click", goNext);
 
 fetch("data.json")
   .then(function (res) { return res.json(); })
