@@ -258,5 +258,15 @@
         "word": "YAGNI",
         "meaning": "機能は実際に必要となるまでは追加しないのがよい",
         "example": "You Ain't Gonna Need It."
+    },
+    {
+        "word": "KISS",
+        "meaning": "シンプルにしておけ",
+        "example": "Keep it simple, stupid."
+    },
+    {
+        "word": "DRY",
+        "meaning": "同じことを繰り返すな",
+        "example": "Don't Repeat Yourself."
     }
 ]
