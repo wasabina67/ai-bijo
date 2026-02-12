@@ -256,7 +256,7 @@
     },
     {
         "word": "YAGNI",
-        "meaning": "それは必要ない",
+        "meaning": "機能は実際に必要となるまでは追加しないのがよい",
         "example": "You Ain't Gonna Need It."
     }
 ]
