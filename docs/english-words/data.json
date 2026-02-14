@@ -268,5 +268,10 @@
         "word": "DRY",
         "meaning": "同じことを繰り返すな",
         "example": "Don't Repeat Yourself."
+    },
+    {
+        "word": "",
+        "meaning": "",
+        "example": ""
     }
 ]
